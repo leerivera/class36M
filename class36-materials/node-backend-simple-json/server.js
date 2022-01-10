@@ -56,12 +56,12 @@ const server = http.createServer((req, res) => {
       res.write(data);
       res.end();
     });
-  }else if (page == '/js/main.js'){
-    fs.readFile('js/main.js', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/javascript'});
-      res.write(data);
-      res.end();
-    });
+  // }else if (page == '/js/main.js'){
+  //   fs.readFile('js/main.js', function(err, data) {
+  //     res.writeHead(200, {'Content-Type': 'text/javascript'});
+  //     res.write(data);
+  //     res.end();
+  //   });
   }else{
     figlet('404!!', function(err, data) {
       if (err) {
