@@ -29,7 +29,16 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   }
-  
+  else if (page == '/api') {
+    if('student' in params){
+      if(params['student']== 'leon'){
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        const objToJson = {
+          name: "leon",
+          status: "Boss Man",
+          currentOccupation: "Baller"
+        }
+        res.end(JSON.stringify(objToJson));
       }//student = leon
       else if(params['student'] != 'leon'){
         res.writeHead(200, {'Content-Type': 'application/json'});
