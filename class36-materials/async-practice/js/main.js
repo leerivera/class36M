@@ -140,5 +140,5 @@ async function getACuteDogPhoto(){
     const data = await res.json()
     console.log(data)
 }
-// getACuteDogPhoto()
+getACuteDogPhoto()
 
