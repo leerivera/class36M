@@ -132,7 +132,7 @@ async function getPaid(){
     console.log(houseThreeWait)
 }
 
-// getPaid()
+getPaid()
 
 //Code 08
 // async function getACuteDogPhoto(){
