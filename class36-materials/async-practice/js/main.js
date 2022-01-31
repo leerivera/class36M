@@ -101,13 +101,13 @@ houseOne()
     .catch(err => console.log(err))
 
 //Code 07
-// function houseOne(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 1')
-//         }, 1000)
-//     })
-// }
+function houseOne(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 1')
+        }, 1000)
+    })
+}
 // function houseTwo(){
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
