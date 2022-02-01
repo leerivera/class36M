@@ -92,13 +92,13 @@ function houseThree(){
         }, 2000)
     })
 }
-// houseOne()
-//     .then(data => console.log(data))
-//     .then(houseTwo)
-//     .then(data => console.log(data))
-//     .then(houseThree)
-//     .then(data => console.log(data))
-//     .catch(err => console.log(err))
+houseOne()
+    .then(data => console.log(data))
+    .then(houseTwo)
+    .then(data => console.log(data))
+    .then(houseThree)
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
 
 //Code 07
 // function houseOne(){
