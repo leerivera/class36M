@@ -71,13 +71,13 @@ promise
     .catch(err => console.log(err))
 
 //Code 06
-// function houseOne(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 1')
-//         }, 1000)
-//     })
-// }
+function houseOne(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 1')
+        }, 1000)
+    })
+}
 // function houseTwo(){
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
