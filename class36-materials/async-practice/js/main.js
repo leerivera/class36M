@@ -6,25 +6,25 @@
 //     console.log('Paper delivered to house 2')
 // }
 // function houseThree(){
-//     console.log('Paper delivered to house 3')
-// }
-// houseOne()
-// houseTwo()
-// houseThree()
+    console.log('Paper delivered to house 3')
+}
+houseOne()
+houseTwo()
+houseThree()
 
-//Code 02
-// function houseOne(){
-//     console.log('Paper delivered to house 1')
-// }
-// function houseTwo(){
-//     setTimeout(() => console.log('Paper delivered to house 2'), 3000)
-// }
-// function houseThree(){
-//     console.log('Paper delivered to house 3')
-// }
-// houseOne()
-// houseTwo()
-// houseThree()
+Code 02
+function houseOne(){
+    console.log('Paper delivered to house 1')
+}
+function houseTwo(){
+    setTimeout(() => console.log('Paper delivered to house 2'), 3000)
+}
+function houseThree(){
+    console.log('Paper delivered to house 3')
+}
+houseOne()
+houseTwo()
+houseThree()
 
 //Code 03
 // function houseOne(){
