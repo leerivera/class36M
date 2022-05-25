@@ -85,13 +85,13 @@ function houseTwo(){
         }, 5000)
     })
 }
-// function houseThree(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 3')
-//         }, 2000)
-//     })
-// }
+function houseThree(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 3')
+        }, 2000)
+    })
+}
 // houseOne()
 //     .then(data => console.log(data))
 //     .then(houseTwo)
